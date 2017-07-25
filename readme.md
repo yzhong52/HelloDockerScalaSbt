@@ -14,7 +14,7 @@ scalaVersion := "2.12.2"
 
 * **project/build.properties** defines the sbt version. 
 
-> There are two sbt versions. One is for building the project itself, which is what is defined in the **build.properties** file here. There is a second sbt version that we'll cover later, which is the `sbt` installed on the machine. We sometimes refer that as `sbt-launcher` and it is ed to  download and run a particular sbt version for building the project.
+> There are two sbt versions. One is for building the project itself, which is what is defined in the **build.properties** file here. There is a second sbt version that we'll cover later, which is the `sbt` installed on the machine. We sometimes refer that as `sbt-launcher` and it is used to  download and run a particular sbt version for building the project.
 
 ```
 sbt.version = 0.13.15
