@@ -1,4 +1,4 @@
 container:
   image: mozilla/sbt:latest
 task:
-  tests_script: sbt tests
+  tests_script: sbt test
